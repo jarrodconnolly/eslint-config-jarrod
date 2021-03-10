@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-jarrod",
+  "version": "1.0.0",
+  "description": "Central ESLint configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarrodconnolly/eslint-config-jarrod.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "author": {
+    "name": "Jarrod Connolly",
+    "email": "jarrod@nestedquotes.ca"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarrodconnolly/eslint-config-jarrod/issues"
+  },
+  "homepage": "https://github.com/jarrodconnolly/eslint-config-jarrod#readme",
+  "peerDependencies": {
+    "eslint": "^7.21.0"
+  },
+  "devDependencies": {
+    "standard-version": "9.1.1"
+  },
+  "scripts": {
+    "release": "standard-version --sign"
+  }
+}
